@@ -1,20 +1,22 @@
 import './App.css';
+import Header from './components/Header/index';
+import Footer from './components/Footer/index';
+import NavigationMenu from './components/NavigationMenu/index';
+import Content from './components/Content/index';
+import MainContent from './components/MainContent/index';
 
 function App() {
-  let name = "nhung";
-  const css = {
-    color: "red",
-    backgroundColor: "blue"
-  };
 
   return (
     <>
-      <div className="test" style={css}>
-        Xin chao {name}!
+      <Header />
+      <NavigationMenu />
+      <div className="main">
+        <Content />
+        <MainContent />
+        <Content />
       </div>
-      <div className="test" style={css}>
-        Xin chao {name}!
-      </div>
+      <Footer />
     </>
     
     
