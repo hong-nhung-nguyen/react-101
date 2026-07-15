@@ -6,12 +6,20 @@ import './App.css';
 // import MainContent from './components/MainContent/index';
 
 import Login from './components/Login/index';
+import Menu from './components/Menu/index';
+import ProductList from './components/ProductList';
+
+import Country from './components/Country/index'
 
 function App() {
 
   return (
     <>
-      <Login />
+      {/* <Menu /> */}
+
+      {/* <ProductList /> */}
+
+      <Country />
     </>
     
     
