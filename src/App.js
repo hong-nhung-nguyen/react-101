@@ -1,11 +1,22 @@
- import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let name = "nhung";
+  const css = {
+    color: "red",
+    backgroundColor: "blue"
+  };
+
   return (
-    <div>
-      Hello
-    </div>
+    <>
+      <div className="test" style={css}>
+        Xin chao {name}!
+      </div>
+      <div className="test" style={css}>
+        Xin chao {name}!
+      </div>
+    </>
+    
     
   );
 }
