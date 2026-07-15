@@ -1,3 +1,7 @@
+import { FaAccessibleIcon } from "react-icons/fa";
+import { FaAmericanSignLanguageInterpreting } from "react-icons/fa";
+
+
 function MainContent() {
     let name = "nhung";
     const css = {
@@ -13,6 +17,11 @@ function MainContent() {
                 <div className="test" style={css}>
                     Xin chao {name}!
                 </div>
+
+                <FaAccessibleIcon style={{fontSize: "50px"}} />
+                <FaAmericanSignLanguageInterpreting className="icon" />
+
+
             </div>
         </>
     )
